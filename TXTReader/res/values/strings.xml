@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShelfActivity!</string>
+    <string name="app_name">Shelf</string>
+    <string name="back"> 返回</string>
+    <string name="color">变换背景</string>
+    <string name="sty">阅读风格</string>
+    <string name="size">字体大小</string>
+    <string name="stye">阅读风格</string>
+    <string name="light">亮度调节</string>
+    <string name="gun">开始滚屏</string>
+    <string name="mulu">目录/书签</string>
+    <string name="zhuan">转至</string>
+    <string name="she">设置</string>
+    <string name="more">更多</string>
+
+</resources>

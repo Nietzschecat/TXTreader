@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLiner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textSize"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_left_f"
+            android:drawableTop="@drawable/cartoon_fontsize"
+            android:text="@string/size" />
+
+        <TextView
+            android:id="@+id/style"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_center_f"
+            android:drawableTop="@drawable/cartoon_style"
+            android:text="@string/stye" />
+
+        <TextView
+            android:id="@+id/light"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_center_f"
+            android:drawableTop="@drawable/cartoon_light"
+            android:text="@string/light" />
+
+        <TextView
+            android:id="@+id/play"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_right_f"
+            android:drawableTop="@drawable/cartoon_play"
+            android:text="@string/gun" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/extract"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_left_f"
+            android:drawableTop="@drawable/cartoon_extract"
+            android:text="@string/mulu" />
+
+        <TextView
+            android:id="@+id/jump"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_center_f"
+            android:drawableTop="@drawable/cartoon_jump"
+            android:text="@string/zhuan" />
+
+        <TextView
+            android:id="@+id/setting"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_center_f"
+            android:drawableTop="@drawable/cartoon_setting"
+            android:text="@string/she" />
+
+        <TextView
+            android:id="@+id/more"
+            style="@style/myStyle2"
+            android:background="@drawable/wordmenu_right_f"
+            android:drawableTop="@drawable/cartoon_more"
+            android:text="@string/more" />
+    </LinearLayout>
+
+</LinearLayout>
